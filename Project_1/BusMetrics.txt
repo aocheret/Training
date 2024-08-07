@@ -1,0 +1,74 @@
+Engagement Rate Analysis
+Calculating the engagement rate for each tweet by combining likes, retweets, and reach. This metric helped us understand what type of content resonates most with the audience.
+
+Influencer Identification
+By analyzing the retweet count, likes, and reach, I can identify top influencers within specific locations and demographics. These influencers can be pivotal in driving brand awareness and engagement.
+
+Sentiment Trends
+Tracking sentiment trends over time, segmented by location and demographics. This analysis provided insights into how different regions and user groups perceive various topics and events.
+
+Peak Engagement Times
+By analyzing tweet engagement across different hours and days of the week, I can determined the optimal times for posting to maximize engagement.
+
+Trending Topics
+Using keyword analysis, I can identify the top trending topics and their associated sentiment. This information helps in crafting timely and relevant content that aligns with current trends.
+
+Virality Score
+Measure how quickly and widely tweets are shared. This can be calculated by looking at the retweet count over time and location
+
+Location-Based Engagement
+I will compare engagement rates across different locations to identify regions with higher or lower engagement.
+
+User Interaction Patterns
+I will try to analyze patterns in user interactions, such as how often users like, retweet, or comment on tweets.
+
+Sentiment Impact on Engagement
+Examine how the sentiment of tweets correlates with engagement metrics like likes and retweets.
+
+Language Distribution
+I will answer to the question what is the language distribution of the audience.
+
+Tweets Network
+I will try to do tweets network graphs from tweets to visualize relationships between users, and interactions like retweets. Network graphs can reveal important connections and clusters within the data.
+
+
+|   Tweet -  100,001 rows  |
+
+| Column       | Data Type |
+|--------------|-----------|
+| tweetid      | string    |
+| weekday      | string    |
+| hour         | integer   |
+| day          | integer   |
+| lang         | string    |
+| isreshare    | string    |
+| reach        | integer   |
+| retweetcount | integer   |
+| likes        | integer   |
+| klout        | integer   |
+| sentiment    | decimal   |
+| text         | string    |
+| locationid   | integer   |
+| userid       | string    |
+----------------------------
+
+| Location  -  6,291 rows|
+
+| Column     | Data Type |
+|------------|-----------|
+| locationid | integer   |
+| country    | string    |
+| state      | string    |
+| statecode  | string    |
+| city       | string    |
+
+| User - 100,001 rows|
+
+| Column | Data Type |
+|--------|-----------|
+| userid | string    |
+| gender | string    |
+
+
+
+
